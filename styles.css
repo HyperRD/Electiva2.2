@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#modo-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.bienvenida {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tarjeta {
+  background: #f9f9f9;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
+
+/* Modo oscuro */
+body.oscuro {
+  background: #121212;
+  color: #ddd;
+}
+
+body.oscuro header {
+  background: #222;
+}
+
+body.oscuro .tarjeta {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+body.oscuro footer {
+  background: #1a1a1a;
+}
