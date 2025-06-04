@@ -11,6 +11,7 @@ header {
   color: white;
   padding: 20px;
   text-align: center;
+  font-size: clamp(12px , 2rem , 3.4vw);
   position: relative;
 }
 
